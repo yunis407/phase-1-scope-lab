@@ -1,23 +1,17 @@
-// Write your solution in this file!
 var customerName = 'bob';
-
-//change name to uppercase
 function upperCaseCustomerName(){
-  return customerName = customerName.toUpperCase();
+    return customerName = customerName.toLocaleUpperCase();
 }
 
-//declaring in global scope
 function setBestCustomer(){
-    return bestCustomer = 'not bob'
+    return  bestCustomer = 'not bob';
 }
 
-//overWriting
 function overwriteBestCustomer(customerName){
     return bestCustomer = customerName;
 }
 
-const leastFavoriteCustomer = 'Andy';
-
+const leastFavoriteCustomer = 'Sumaya';
 function changeLeastFavoriteCustomer(){
-    return leastFavoriteCustomer = 'Ben';
+    leastFavoriteCustomer = 'Yunus';
 }
